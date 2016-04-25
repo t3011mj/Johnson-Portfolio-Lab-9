@@ -1,0 +1,32 @@
+
+/* Mixed syntax and Variable */
+
+$font-size = 24px "Berlin Sans FB Demi", Ariel 
+
+body
+	background-color: #FFEFD5
+
+h1
+	color: #778899
+
+p 
+	color: #003366
+	font: $font-size sans-serif
+
+/* Functions: darken and lighten */
+
+#darken
+	background-color: darken(#FFEFD5, 40%)
+
+#lighten
+	background-color: lighten(#003366, 60%)
+	color: #FFFFFF
+
+/* Mixin */
+
+#button 
+	-webkit-border-radius: 25px
+	-moz-border-radius: 25px 
+	border-radius: 25px
+	background-color: #778899
+	color: #FFFFFF 

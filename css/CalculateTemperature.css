@@ -1,0 +1,27 @@
+/* Mixed syntax and Variable */
+body {
+  background-color: #ffefd5;
+}
+h1 {
+  color: #789;
+}
+p {
+  color: #036;
+  font: 24px "Berlin Sans FB Demi", Ariel sans-serif;
+}
+/* Functions: darken and lighten */
+#darken {
+  background-color: #ffa81a;
+}
+#lighten {
+  background-color: #5cadff;
+  color: #fff;
+}
+/* Mixin */
+#button {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background-color: #789;
+  color: #fff;
+}
